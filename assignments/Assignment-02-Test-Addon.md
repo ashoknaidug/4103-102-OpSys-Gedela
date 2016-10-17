@@ -1,6 +1,6 @@
 # Test 1 Helper
-### Multi\*
-##### Define the following and give examples of each.
+## Multi\*
+#### Define the following and give examples of each.
 
 1. Multi-tasking
 2. Multi-programming
