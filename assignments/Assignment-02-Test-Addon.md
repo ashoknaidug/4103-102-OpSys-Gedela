@@ -4,6 +4,7 @@
 
 ####1.Multi-tasking :
   Multitasking  is defined in terms of operating system, in which multiple processes, also called tasks, can execute (i.e., run) on a single computer seemingly simultaneously and without interfering with each other.
+####-Example: 
  
 ####2. Multi-programming
 ####3. Multi-processing
