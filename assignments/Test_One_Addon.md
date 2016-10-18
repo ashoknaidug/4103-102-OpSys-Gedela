@@ -34,7 +34,7 @@
    listing the sequence of instructions that execute for a process is referred to  trace of the process. This is done by showing how the traces of various processes are alternatively arranged .
 
 ####2. What common events lead to the creation of a process?
-  There are 4 comkon events:
+  There are 4 common events:
 - When a *new batch-job* is presented for execution.
 - When an *interactive user logs in */ system initialization.
 - When OS needs to perform an operation (usually IO) on *behalf of a user process*, concurrently with that process.
@@ -44,7 +44,7 @@
   A process will be Preempted if the period has ended even though it is  not finished . CPU will finish the unfinished process later.
 ####4. What is swapping and what is its purpose?
   Swapping is a technique for memory/process management used by the operating system for increasing the utilization of the resources and to accommodate more processes.
-  When ever a new process is ready to be loaded in to memory and if no partition is free then the process of swapping between main memory and secondary storage is done this is called swappig.
+  ...When ever a new process is ready to be loaded in to memory and if no partition is free then the process of swapping between main memory and secondary storage is done this is called swappig....
   
 ####5. Why does Figure 3.9b have two blocked states?
   To accommodate the two different combinations we need two blocked states and two suspended states. They are: 
