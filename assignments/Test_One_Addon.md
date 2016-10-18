@@ -58,7 +58,7 @@
   4. The process may not be removed from this state until the agent explicitly orders the removal.
   
 ####7. List three general categories of information in a process control block?
- - ** Process identification:** In virtually all operating systems each process is assigned to a unique numeric identifier. 
+ - **Process identification:** In virtually all operating systems each process is assigned to a unique numeric identifier. 
  - **Processor state information:** Content of processor registers. While a process is running,of course, the information is in the registers, When a process is interrupted, all of this register information must be saved so that it can be restored when the process resumes execution. 
  - **Process control information:** Additional information needed by the OS to control and coordinate the various active processes.
  
@@ -68,7 +68,8 @@
 ####9. What is the difference between an interrupt and a trap?
 | Interrupt     | Trap        |
 | ------------- |:-------------:|
-|- It is caused external of the execution of the current instruction and is used to react to an asynchronous external event.     |- It is associated with the execution of the current instruction and is used to handle an error or an exception condition. |
+|It is caused external of the execution of the current instruction and is used to react to an asynchronous external event.     |It is associated with the execution of the current instruction and is used to handle an error or an exception condition. |
+|An Interrupt routine should be transperent|It has height level of priority among interrupts.|
 
 
 
