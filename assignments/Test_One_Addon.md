@@ -71,7 +71,12 @@
 |It is caused external of the execution of the current instruction and is used to react to an asynchronous external event.     |It is associated with the execution of the current instruction and is used to handle an error or an exception condition. |
 |An Interrupt routine should be transperent|It has height level of priority among interrupts.|
 
+####10. Give three examples of an interrupt?
+  - Internal Interrupt. Memory interrupt fault.
+  - Software Interrupt. Clock interrupt.
+  - External Interrupt. I/O interrupt.
 
-
-1. Give three examples of an interrupt.
-1. What is the difference between a mode switch and a process switch?
+####11. What is the difference between a mode switch and a process switch?
+| Mode Switch     | Process Switch |
+| ------------- |:-------------:|
+|A process switch is called when the processor switches from one thread/process to another. This causes the contents of the cpu registers and instruction pointer to be saved.|A mode switch is what is referred to when the cpu changes privilege levels. The kernel works at a higher privilege than a standard user task.|
