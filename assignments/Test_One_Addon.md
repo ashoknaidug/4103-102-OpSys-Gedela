@@ -34,6 +34,13 @@
    listing the sequence of instructions that execute for a process is referred to  trace of the process. This is done by showing how the traces of various processes are alternatively arranged .
 
 ####2. What common events lead to the creation of a process?
+  There are 4 comkon events:
+- When a *new batch-job* is presented for execution.
+- When an *interactive user logs in */ system initialization.
+- When OS needs to perform an operation (usually IO) on *behalf of a user process*, concurrently with that process.
+- To exploit parallelism an user process can *spawn* a number of processes.
+
+
   
 1. What does it mean to preempt a process?
 1. What is swapping and what is its purpose?
